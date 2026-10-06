@@ -6,6 +6,7 @@ function attack (){
     //let hp = 100;
     let missed = Math.random();
     let dmgRandom = Math.floor(Math.random() * 20) + 1;
+    console.log('health: ' + hp);
 
     if (missed < 0.1){
         //missed logic
